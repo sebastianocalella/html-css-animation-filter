@@ -66,3 +66,14 @@
 .ex-8-img{
     transition: 1.5s;
 }
+
+.ex-9-img:hover{
+    filter: grayscale(50%) sepia(50%);
+    border-radius: 20px;
+    margin: 0;
+    width: 600px;
+}
+
+.ex-9-img{
+    transition: 1.8s;
+}
