@@ -45,3 +45,7 @@
 .ex-5-square{
     transition: .4s;
 }
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
