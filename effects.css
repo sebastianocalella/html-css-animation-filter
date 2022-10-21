@@ -77,3 +77,16 @@
 .ex-9-img{
     transition: 1.8s;
 }
+
+.ex-10-icon{
+    animation: jump-down-turn-around-pick-a-ball-of-cotton 1.5s infinite linear;
+}
+
+@keyframes jump-down-turn-around-pick-a-ball-of-cotton {
+    from {
+        transform: rotate(359deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
