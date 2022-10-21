@@ -21,3 +21,27 @@
 .ex-3-square{
     transition: 1.2s;
 }
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+.ex-4-square{
+    transition: 1.2s;
+}
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.ex-5-square:active{
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+}
+
+.ex-5-square{
+    transition: .4s;
+}
